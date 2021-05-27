@@ -6,7 +6,7 @@ import './index.css';
 function Greeting({ name }) {
   return (
     <h1>
-      Hello,
+      Hello
       {name}
     </h1>
   );
