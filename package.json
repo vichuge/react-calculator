@@ -1,5 +1,5 @@
 {
-  "homepage":"https://vichuge.github.io/react-calculator",
+  "homepage": "https://vichuge.github.io/react-calculator",
   "name": "react-calculator",
   "version": "0.1.0",
   "private": true,
@@ -41,6 +41,16 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/eslint-parser": "^7.14.3",
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/preset-react": "^7.13.13",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.23.3",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "gh-pages": "^3.2.0"
   }
 }
