@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import PropTypes from 'prop-types';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+function Greeting({ name }) {
+  return (
+    <h1>
+      Hello,
+      {name}
+    </h1>
+  );
+}
+
+Greeting.defaultProps = {
+  name: 'Defatult',
+};
+
+Greeting.propTypes = {
+  name: PropTypes.string,
+};
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Greeting name="Victor" />,
+  document.getElementById('root'),
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
