@@ -1,9 +1,22 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Display = () => (
-  <div className="Display">
-    <p>123</p>
-  </div>
-);
+const Display = (props) => {
+  const { result } = props;
+
+  return (
+    <div className="Display">
+      <p>{result}</p>
+    </div>
+  );
+};
+
+Display.propTypes = {
+  result: PropTypes.string,
+};
+
+Display.defaultProps = {
+  result: 0,
+};
 
 export default Display;
