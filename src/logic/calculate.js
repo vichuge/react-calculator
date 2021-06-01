@@ -13,9 +13,6 @@ const calculate = (data, buttonName) => {
       next = null;
       operation = null;
       break;
-    case '%':
-      total = total + operation + next;
-      break;
     case '.':
       total = `${total}.`;
       break;
@@ -40,6 +37,7 @@ const calculate = (data, buttonName) => {
     case '-':
     case 'x':
     case '/':
+    case '%':
       total = operate(total, next, operation);
       break;
     default:
