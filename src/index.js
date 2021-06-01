@@ -1,26 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import PropTypes from 'prop-types';
 import './index.css';
-
-function Greeting({ name }) {
-  return (
-    <h1>
-      Hello,
-      {name}
-    </h1>
-  );
-}
-
-Greeting.defaultProps = {
-  name: 'Defatult',
-};
-
-Greeting.propTypes = {
-  name: PropTypes.string,
-};
+import App from './components/App';
 
 ReactDOM.render(
-  <Greeting name="Victor" />,
+  <App />,
   document.getElementById('root'),
 );
