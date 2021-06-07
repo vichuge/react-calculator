@@ -20,10 +20,14 @@ class App extends React.Component {
   }
 
   render() {
-    // const { next, total } = this.state;
+    const { total, operation, next } = this.state;
+    let display = '';
+    if (total) display = total;
+    if (total && operation) display = total;
+    if (total && operation && next) display = next;
     return (
       <>
-        <Display result="0" />
+        <Display result={display} />
         <ButtonPanel clickApp={this.handleClick} />
       </>
     );

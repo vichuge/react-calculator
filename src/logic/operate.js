@@ -3,20 +3,27 @@ import Big from 'big.js';
 const operate = (numberOne, numberTwo, operation) => {
   const n1 = Big(numberOne);
   const n2 = Big(numberTwo);
+  let result = '';
   switch (operation) {
     case '+':
-      return Math.add(n1, n2);
+      result = n1.plus(n2);
+      break;
     case '-':
-      return Math.sustract(n1, n2);
-    case 'x':
-      return Math.multiply(n1, n2);
+      result = n1.minus(n2);
+      break;
+    case 'X':
+      result = n1.times(n2);
+      break;
     case '/':
-      return Math.divide(n1, n2);
+      result = n1.div(n2);
+      break;
     case '%':
-      return n1 * (n2 * 0.01);
+      result = n1.mod(n2);
+      break;
     default:
-      return 'Error!';
+      result = 'Error!';
   }
+  return result.toString();
 };
 
 export default operate;
