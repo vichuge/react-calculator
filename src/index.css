@@ -12,6 +12,7 @@
 .display p {
   margin: 0;
   border: solid white 1px;
+  padding-right: .2em;
 }
 
 .g1 Button {
