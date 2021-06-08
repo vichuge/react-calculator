@@ -3,6 +3,8 @@
 
 <p align="center">A basic calculator made with React js</p>
 
+[screenshot](./screenshots/Screenshot_1.png)
+
 ## Live demo
 
 [Live demo here!](https://vichuge.github.io/react-calculator/)
