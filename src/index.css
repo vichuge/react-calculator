@@ -12,10 +12,10 @@
 .display p {
   margin: 0;
   border: solid white 1px;
-  padding-right: .2em;
+  padding-right: 0.2em;
 }
 
-.g1 Button {
+.g1 button {
   border: solid white 1px;
   border-radius: 0%;
   color: white;
@@ -25,7 +25,7 @@
 }
 
 @media only screen and (max-width: 460px) {
-  .g1 Button {
+  .g1 button {
     font-size: 35px;
   }
 
@@ -35,7 +35,7 @@
 }
 
 @media only screen and (max-width: 268px) {
-  .g1 Button {
+  .g1 button {
     font-size: 17px;
   }
 
