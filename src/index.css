@@ -1,3 +1,44 @@
-h1 {
-  color: black;
+* {
+  background-color: black;
+}
+
+.display {
+  background-color: black;
+  color: white;
+  text-align: right;
+  font-size: 100px;
+}
+
+.display p {
+  margin: 0;
+  border: solid white 1px;
+}
+
+.g1 Button {
+  border: solid white 1px;
+  border-radius: 0%;
+  color: white;
+  background-color: black;
+  font-size: 70px;
+  min-width: 25%;
+}
+
+@media only screen and (max-width: 460px) {
+  .g1 Button {
+    font-size: 35px;
+  }
+
+  .display {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 268px) {
+  .g1 Button {
+    font-size: 17px;
+  }
+
+  .display {
+    font-size: 25px;
+  }
 }

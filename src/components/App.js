@@ -22,6 +22,7 @@ class App extends React.Component {
   render() {
     const { total, operation, next } = this.state;
     let display = '';
+    if (!total) display = '0';
     if (total) display = total;
     if (total && operation) display = total;
     if (total && operation && next) display = next;

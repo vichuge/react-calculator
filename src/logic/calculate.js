@@ -68,7 +68,6 @@ const calculate = (data, buttonName) => {
     default:
       total = 'Error!';
   }
-  console.log({ total, next, operation });
   return { total, next, operation };
 };
 
