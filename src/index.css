@@ -1,29 +1,74 @@
 * {
-  background-color: black;
+  background-color: white;
+}
+
+body {
+  
 }
 
 .display {
-  background-color: black;
+  width: 700px;
   color: white;
   text-align: right;
-  font-size: 100px;
+  font-size: 90px;
+  height: 100px;
+  font-weight: bold;
 }
 
 .display p {
+  background-color: gray;
   margin: 0;
-  border: solid white 1px;
-  padding-right: 0.2em;
+  border: solid #D1D1D1 1px;
+  padding: 0 0.2em;
+}
+
+.g1 {
+  width: 700px;
+  height: 100px;
+}
+
+.zero {
+  min-width: 50%;
+  background-color: #E0E0E0;
+}
+
+.gray {
+  min-width: 25%;
+  background-color: #E0E0E0;
+}
+
+.orange {
+  min-width: 25%;
+  background-color: #F5913E;
 }
 
 .g1 button {
-  border: solid white 1px;
+  border: solid #D1D1D1 1px;
   border-radius: 0%;
-  color: white;
-  background-color: black;
-  font-size: 70px;
-  min-width: 25%;
+  color: black;
+  
+  font-size: 84px;
 }
 
+.Navbar {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar p {
+  font-size: 30px;
+}
+
+.calc-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.quote-text {
+  text-align: center;
+  margin-top: 300px;
+}
 @media only screen and (max-width: 460px) {
   .g1 button {
     font-size: 35px;
