@@ -12,8 +12,8 @@ const App = ({ total: initialTotal, next: initialNext, operation: initialOperati
   const handleClick = (buttonName) => {
     const result = calculate({ total, next, operation }, buttonName);
     setTotal(result.total);
-    setNext([result.next]);
-    setOperation([result.operation]);
+    setNext(result.next);
+    setOperation(result.operation);
   };
 
   let display = '';

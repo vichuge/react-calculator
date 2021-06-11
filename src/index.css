@@ -1,9 +1,13 @@
 * {
-  background-color: black;
+  background-color: gray;
+}
+
+body {
+  width: 700px;
 }
 
 .display {
-  background-color: black;
+  background-color: gray;
   color: white;
   text-align: right;
   font-size: 100px;
