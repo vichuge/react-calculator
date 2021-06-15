@@ -3,7 +3,7 @@
 
 <p align="center">A basic calculator made with React js</p>
 
-![screenshot](/screenshots/Screenshot_1.png)
+![screenshot](/screenshots/Screenshot_2.png)
 
 ## Live demo
 
