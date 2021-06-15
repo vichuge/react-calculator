@@ -14,7 +14,7 @@
 .display p {
   background-color: gray;
   margin: 0;
-  border: solid #D1D1D1 1px;
+  border: solid #d1d1d1 1px;
   padding: 0 0.2em;
 }
 
@@ -25,24 +25,23 @@
 
 .zero {
   min-width: 50%;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
 }
 
 .gray {
   min-width: 25%;
-  background-color: #E0E0E0;
+  background-color: #e0e0e0;
 }
 
 .orange {
   min-width: 25%;
-  background-color: #F5913E;
+  background-color: #f5913e;
 }
 
 .g1 button {
-  border: solid #D1D1D1 1px;
+  border: solid #d1d1d1 1px;
   border-radius: 0%;
   color: black;
-  
   font-size: 84px;
 }
 
