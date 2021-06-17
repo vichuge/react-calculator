@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`return button panel 1`] = `
+<button
+  className="gray "
+  onClick={[Function]}
+  type="button"
+>
+  AC
+</button>
+`;
