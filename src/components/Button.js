@@ -5,7 +5,7 @@ const Button = ({
   buttonName, clickPanel, color, wide,
 }) => {
   let w = '';
-  if (wide === true) w = 'zero';
+  if (wide === 'true') w = 'zero';
   const clickBtn = () => clickPanel(buttonName);
   return (
     <button type="button" className={`${color} ${w}`} onClick={clickBtn}>{buttonName}</button>
@@ -16,12 +16,12 @@ Button.propTypes = {
   buttonName: PropTypes.string.isRequired,
   clickPanel: PropTypes.func.isRequired,
   color: PropTypes.string,
-  wide: PropTypes.bool,
+  wide: PropTypes.string,
 };
 
 Button.defaultProps = {
   color: 'orange',
-  wide: false,
+  wide: 'false',
 };
 
 export default Button;
