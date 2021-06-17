@@ -2,13 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Button = ({
-  buttonName, clickPanel, color, wide,
+  buttonName, clickPanel, color,
 }) => {
-  let w = '';
-  if (wide === 'true') w = 'zero';
   const clickBtn = () => clickPanel(buttonName);
   return (
-    <button type="button" className={`${color} ${w}`} onClick={clickBtn}>{buttonName}</button>
+    <button type="button" className={`${color}`} onClick={clickBtn}>{buttonName}</button>
   );
 };
 
@@ -16,12 +14,10 @@ Button.propTypes = {
   buttonName: PropTypes.string.isRequired,
   clickPanel: PropTypes.func.isRequired,
   color: PropTypes.string,
-  wide: PropTypes.string,
 };
 
 Button.defaultProps = {
   color: 'orange',
-  wide: 'false',
 };
 
 export default Button;

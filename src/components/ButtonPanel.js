@@ -33,7 +33,7 @@ const ButtonPanel = ({ clickApp }) => {
         <Button buttonName="+" clickPanel={clickHandle} />
       </div>
       <div className="g1">
-        <Button buttonName="0" clickPanel={clickHandle} color="zero" wide="true" />
+        <Button buttonName="0" clickPanel={clickHandle} color="zero" />
         <Button buttonName="." clickPanel={clickHandle} color="gray" />
         <Button buttonName="=" clickPanel={clickHandle} />
       </div>
