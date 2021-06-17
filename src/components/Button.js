@@ -6,7 +6,7 @@ const Button = ({
 }) => {
   const clickBtn = () => clickPanel(buttonName);
   return (
-    <button type="button" className={`${color}`} onClick={clickBtn}>{buttonName}</button>
+    <button type="button" className={`${color} `} onClick={clickBtn}>{buttonName}</button>
   );
 };
 
