@@ -36,7 +36,6 @@
 
 - GitHub: [@vichuge](https://github.com/vichuge)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/victorpachecoflores/)
-- Twitter: [@Pachecofloresv](https://twitter.com/Pachecofloresv)
 
 
 ## 🤝 Contributing
